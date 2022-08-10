@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./card.jsx";
 import { useEffect, useState } from "react";
 
+
 const SecondsCounter = () => {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
@@ -26,6 +27,7 @@ const SecondsCounter = () => {
   }, [time]);
   return (
     <div className="numbers">
+      <i className="fa-regular fa-clock"/>
       <Card number={timeString[5]} />
       <Card number={timeString[4]} />
       <Card number={timeString[3]} />

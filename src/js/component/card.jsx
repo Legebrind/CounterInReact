@@ -14,6 +14,8 @@ Card.propTypes={
     number: PropTypes.string
 }
 
-
+Card.defaultProps={
+    number:"0"
+}
 
 export default Card;
