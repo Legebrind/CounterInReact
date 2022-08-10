@@ -26,7 +26,7 @@ const Countdown = () => {
   },[time]);
   
   return (
-    <div className="countdown">
+    <div className="countdown my-4">
       <div className="numbers d-flex justify-content-center">
         <span className="bg-dark text-white">
           {("0" + Math.floor((time / 60000) % 60)).slice(-2)}
