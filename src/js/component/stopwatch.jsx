@@ -15,7 +15,10 @@ const Stopwatch = () => {
     }
     return () => clearInterval(interval);
   }, [running]);
-  window.addEventListener('load', () => setRunning(true));
+  useEffect(() =>{
+    setRunning(true)
+  },[])
+  
   return (
     <div className="stopwatch">
       <div className="numbers d-flex justify-content-center">
