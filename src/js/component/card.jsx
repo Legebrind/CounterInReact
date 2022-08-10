@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 
 
-const Card = (props) =>{
+const Card = ({number}) =>{
     return(
-        <span className="bg-dark text-white m-4">{props.number}</span>
+        <span className="bg-dark text-white m-4">{number}</span>
  
     )
 }
