@@ -10,3 +10,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.numbers{
+    font-size: 10vw;
+    letter-spacing:2vw;
+    text-align: center;
+}
+
+.nomp{
+    margin: 0px;
+    padding: 0px;
+}
